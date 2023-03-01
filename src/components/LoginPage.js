@@ -11,7 +11,6 @@ export default function LoginPage() {
           setTotalEntry([...allEntry])
            e.preventDefault();
   }
-  
   return (
     <form action='' className={styles.container} onSubmit={submitformbutton} >
     <div className={styles.main}  >
